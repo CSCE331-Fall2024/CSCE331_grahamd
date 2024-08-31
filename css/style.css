@@ -1,0 +1,17 @@
+.navbar-container {
+  border: solid red 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+a.navbar-button {
+  /* border: solid green 2px; */
+  color: #f1efed;
+  text-decoration: none;
+  padding: 0 16px;
+}
+a.navbar-button:hover {
+  color: #fe9000;
+  text-decoration: underline;
+}
