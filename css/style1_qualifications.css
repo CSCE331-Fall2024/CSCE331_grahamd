@@ -51,6 +51,7 @@ a.navbar-button:hover {
   /* border: solid yellowgreen 2px; */
   color: #f1efed;
   margin: 0 20rem 0 0;
+  padding: 0;
 }
 
 .qualifications-header-download {
