@@ -33,3 +33,125 @@ a.navbar-button:hover {
   color: #fe9000;
   text-decoration: underline;
 }
+
+.ai-header {
+  /* border: solid orange 2px; */
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.ai-header > h1 {
+  /* border: solid yellow 2px; */
+  color: #f1efed;
+  margin: 0;
+}
+
+.ai-header > p {
+  /* border: solid yellowgreen 2px; */
+  color: #f1efed;
+  margin: 0 20rem 0 0;
+}
+
+.ai-container {
+  /* border: solid red 2px; */
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 10vw 0 1rem; */
+  margin: 1rem 20vw 0 1rem;
+}
+
+.right-aligned-container {
+  /* border: dashed green 2px; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-aligned-container {
+  /* border: dashed blue 2px; */
+  display: flex;
+}
+
+#chat-me-container {
+  /* border: solid orange 2px; */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #39375b;
+  width: 30vw;
+  padding: 1rem;
+}
+
+#chat-me-container > h1 {
+  color: #f1efed;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#chat-me-container > h2 {
+  color: #fe9000;
+  font-size: 0.75em;
+  margin: 0;
+  font-weight: normal;
+}
+
+#chat-me-container > p {
+  color: #f1efed;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+#chat-ai-container {
+  /* border: solid yellowgreen 2px; */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #39375b;
+  width: 60vw;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#chat-ai-container > div {
+  /* border: solid purple 2px; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#chat-ai-container > div > img {
+  height: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+#chat-ai-container > div > h1 {
+  color: #f1efed;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#chat-ai-container > h2 {
+  color: #fe9000;
+  font-size: 0.75em;
+  margin: 0;
+  font-weight: normal;
+  text-align: right;
+}
+
+#chat-ai-container > p {
+  color: #f1efed;
+  padding-top: 0.5rem;
+  margin: 0;
+}
+
+#chat-ai-container > h1 {
+  color: #f1efed;
+  padding-top: 0.5rem;
+  margin: 0;
+  font-size: 1.25em;
+}
+
+#chat-ai-container > li {
+  color: #f1efed;
+  margin: 0.5rem 1rem;
+}
