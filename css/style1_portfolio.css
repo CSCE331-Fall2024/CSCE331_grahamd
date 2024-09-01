@@ -50,7 +50,7 @@ a.navbar-button:hover {
 .portfolio-header > p {
   /* border: solid yellowgreen 2px; */
   color: #f1efed;
-  margin-right: 20rem;
+  margin: 0 20rem 0 0;
 }
 
 .projects-container-outer {
@@ -75,7 +75,8 @@ a.navbar-button:hover {
 }
 
 .project-container:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .project-container > div {

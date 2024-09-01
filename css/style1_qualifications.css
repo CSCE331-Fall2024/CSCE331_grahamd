@@ -33,3 +33,102 @@ a.navbar-button:hover {
   color: #fe9000;
   text-decoration: underline;
 }
+
+.qualifications-header {
+  /* border: solid orange 2px; */
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.qualifications-header > h1 {
+  /* border: solid yellow 2px; */
+  color: #f1efed;
+  margin: 0;
+}
+
+.qualifications-header > p {
+  /* border: solid yellowgreen 2px; */
+  color: #f1efed;
+  margin: 0 20rem 0 0;
+}
+
+.qualifications-header-download {
+  /* border: solid lightgoldenrodyellow 2px; */
+  color: #fe9000;
+}
+
+a.qualifications-header-download:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1 {
+  /* border: solid darkgoldenrod 2px; */
+  color: #f1efed;
+  margin: 1rem 1rem 0 1rem;
+}
+
+h2 {
+  /* border: solid green 2px; */
+  color: #f1efed;
+  margin: 0;
+}
+
+.education-container {
+  /* border: solid darkblue 2px; */
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 1rem;
+}
+
+.education-tile {
+  /* border: solid lightskyblue 2px; */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #39375b;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.education-tile > h3 {
+  /* border: solid violet 2px; */
+  color: #f1efed;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.education-tile > h4 {
+  /* border: solid purple 2px; */
+  color: #f1efed;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.education-tile > h5 {
+  /* border: solid lightpink 2px; */
+  color: #fe9000;
+  font-size: 0.75em;
+  margin: 0;
+}
+
+.education-divider {
+  /* border: solid red 2px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-divider > p {
+  /* border: solid magenta 2px; */
+  color: #f1efed;
+  margin: 1rem 0 0 0;
+}
+
+.education-divider > p > i {
+  /* border: solid magenta 2px; */
+  color: #bfbcbf;
+  margin: 1rem 0 0 0;
+  font-size: 0.75em;
+}
