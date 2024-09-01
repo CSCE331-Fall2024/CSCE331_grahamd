@@ -33,3 +33,75 @@ a.navbar-button:hover {
   color: #fe9000;
   text-decoration: underline;
 }
+
+.service-header {
+  /* border: solid orange 2px; */
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.service-header > h1 {
+  /* border: solid yellow 2px; */
+  color: #f1efed;
+  margin: 0;
+}
+
+.service-header > p {
+  /* border: solid yellowgreen 2px; */
+  color: #f1efed;
+  margin: 0 20rem 0 0;
+}
+
+.kav-container {
+  /* border: solid darkcyan 2px; */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #39375b;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 10vw 0rem 1rem;
+  padding: 0 1rem;
+}
+
+.kav-container > p {
+  /* border: solid lime 2px; */
+  margin: 1rem;
+  color: #f1efed;
+  align-self: center;
+}
+
+.kav-container > img {
+  /* border: solid green 2px; */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  align-self: center;
+  width: 10vw;
+}
+
+.gif-container {
+  /* border: solid cyan 2px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10vw 1rem 1rem;
+}
+
+.gif-container > p {
+  /* border: solid lime 2px; */
+  margin: 1rem;
+  color: #f1efed;
+  align-self: center;
+}
+
+.gif-container > img {
+  /* border: solid green 2px; */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  align-self: center;
+  height: 40vh;
+}
