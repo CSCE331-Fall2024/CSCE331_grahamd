@@ -92,14 +92,14 @@ h2 {
   margin: 0.5rem 0.5rem;
 }
 
-.education-tile > h3 {
+.education-tile > h2 {
   /* border: solid violet 2px; */
   color: #f1efed;
   margin: 0;
   font-size: 1.5em;
 }
 
-.education-tile > h4 {
+.education-tile > h3 {
   /* border: solid purple 2px; */
   color: #f1efed;
   margin: 0;
@@ -107,7 +107,7 @@ h2 {
   font-size: 1.5em;
 }
 
-.education-tile > h5 {
+.education-tile > h4 {
   /* border: solid lightpink 2px; */
   color: #fe9000;
   font-size: 0.75em;
@@ -131,4 +131,38 @@ h2 {
   color: #bfbcbf;
   margin: 1rem 0 0 0;
   font-size: 0.75em;
+}
+
+.skills-container {
+  /* border: solid orangered 2px; */
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills-tile {
+  /* border: solid darkred 2px; */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #39375b;
+  padding: 1rem;
+}
+
+.skills-tile > div {
+  /* border: solid rebeccapurple 2px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-tile > div > div {
+  /* border: solid peru 2px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills-tile > div > div > img {
+  /* border: dashed red 2px; */
+  width: 8vw;
+  padding: 1rem;
 }
