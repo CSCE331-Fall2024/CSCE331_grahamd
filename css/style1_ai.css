@@ -92,7 +92,6 @@ a.navbar-button:hover {
   color: #fe9000;
   font-size: 0.75em;
   margin: 0;
-  font-weight: normal;
 }
 
 #chat-me-container > p {
@@ -134,7 +133,6 @@ a.navbar-button:hover {
   color: #fe9000;
   font-size: 0.75em;
   margin: 0;
-  font-weight: normal;
   text-align: right;
 }
 
