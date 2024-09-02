@@ -180,6 +180,12 @@ a.navbar-button:hover {
   padding: 0 0.5rem;
 }
 
+.portfolio-container > a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .portfolio-container > a > img {
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
