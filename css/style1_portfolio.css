@@ -129,7 +129,7 @@ a.navbar-button:hover {
   /* border: dashed violet 2px; */
   display: grid;
   grid-template-columns: 1fr;
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .project-container:hover {

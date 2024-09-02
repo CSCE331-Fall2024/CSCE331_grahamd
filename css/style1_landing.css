@@ -86,23 +86,28 @@ a.navbar-button:hover {
 }
 
 .landing-body-container {
-  /* 
-  solid orange 2px; */
+  /* border: solid orange 2px; */
   display: flex;
   justify-content: space-between;
   height: 95vh;
   overflow: hidden;
 }
 
+.landing-body-container > div {
+  /* border: dashed red 5px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .picture-container {
-  /* 
-  solid yellow 2px; */
+  /* border: solid yellow 2px; */
   position: relative;
 }
 
 .picture-bg {
-  /* 
-  dashed darkorange 2px; */
+  /* border: dashed darkorange 2px; */
   z-index: 1;
   height: 85vh;
 }
@@ -118,19 +123,20 @@ a.navbar-button:hover {
 
 .introduction-container {
   /* border: solid blue 2px; */
-  position: relative;
-  padding: 2rem 4rem;
   margin-bottom: 4rem;
+  margin-right: 30vw;
+  margin: 5vh 30vw 4rem 0;
 }
 
 .introduction-container > h1 {
   /* border: dashed lightseagreen 2px; */
   position: absolute;
-  top: 6rem;
-  margin: 0;
+  top: 18vh;
   font-size: 5em;
   color: #f1efed;
   font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .introduction-container > h2 {
@@ -145,14 +151,14 @@ a.navbar-button:hover {
   /* border: solid blueviolet 2px; */
   display: flex;
   flex-direction: column;
-  margin: 0 10rem;
+  margin: 0 8rem;
 }
 
 .information-container > p {
   /* border: solid lime 2px; */
   color: #f1efed;
   font-size: 1.25em;
-  line-height: 1.5em;
+  margin: 0.5rem;
 }
 
 .information-container > a {
@@ -163,4 +169,28 @@ a.navbar-button:hover {
 
 .information-container > a > img {
   width: 1vw;
+}
+
+.portfolio-container {
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  background-color: #39375b;
+  margin: 8vh;
+  padding: 0 0.5rem;
+}
+
+.portfolio-container > a > img {
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  width: 5vw;
+  margin: 0.5rem;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.portfolio-container > a > img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
