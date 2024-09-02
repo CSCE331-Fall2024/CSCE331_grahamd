@@ -133,6 +133,10 @@ a.navbar-button:hover {
   width: 10vw;
 }
 
+.kav-container > p > a {
+  color: #fe9000;
+}
+
 .gif-container {
   /* border: solid cyan 2px; */
   display: flex;
