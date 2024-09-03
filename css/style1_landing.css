@@ -109,12 +109,17 @@ a.navbar-button:hover {
 .picture-container {
   /* border: solid yellow 2px; */
   position: relative;
+  width: 50vw;
+  z-index: 0;
+  min-width: 20rem;
 }
 
 .picture-bg {
   /* border: dashed darkorange 2px; */
+  position: absolute;
   z-index: 1;
   height: 85vh;
+  left: -12.25rem;
   filter: brightness(0) saturate(100%) invert(55%) sepia(26%) saturate(2963%)
     hue-rotate(1deg) brightness(106%) contrast(104%);
 }
@@ -133,6 +138,7 @@ a.navbar-button:hover {
   margin-bottom: 4rem;
   margin-right: 30vw;
   margin: 5vh 30vw 4rem 0;
+  z-index: 5;
 }
 
 .introduction-container > h1 {
@@ -161,6 +167,7 @@ a.navbar-button:hover {
   display: flex;
   flex-direction: column;
   margin: 0 8rem;
+  z-index: 5;
 }
 
 .information-container > p {
