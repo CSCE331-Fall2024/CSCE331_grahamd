@@ -77,7 +77,12 @@ a.navbar-button {
 
 a.navbar-button-graphic {
   /* border: dashed green 2px; */
-  padding: 0 0.5rem;
+  padding-left: 0.5rem;
+}
+
+a.navbar-button-graphic > img {
+  width: 3.5vh;
+  margin: 0.5rem;
 }
 
 a.navbar-button:hover {
