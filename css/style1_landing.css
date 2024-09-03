@@ -110,6 +110,8 @@ a.navbar-button:hover {
   /* border: dashed darkorange 2px; */
   z-index: 1;
   height: 85vh;
+  filter: brightness(0) saturate(100%) invert(55%) sepia(26%) saturate(2963%)
+    hue-rotate(1deg) brightness(106%) contrast(104%);
 }
 
 .picture-graham {

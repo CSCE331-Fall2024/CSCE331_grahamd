@@ -9,7 +9,7 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="port.svg"
+   sodipodi:docname="bg_orange.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1.0449705"
-     inkscape:cx="420.58602"
-     inkscape:cy="589.96879"
+     inkscape:cx="292.35275"
+     inkscape:cy="433.98354"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -41,7 +41,7 @@
        inkscape:color="rgb(0,134,229)" /></sodipodi:namedview><defs
      id="defs1" /><path
      id="path1"
-     style="fill:#fe9000;fill-opacity:1;stroke:none;stroke-width:19.9999;stroke-linecap:round;stroke-linejoin:round"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:19.9999;stroke-linecap:round;stroke-linejoin:round"
      d="M 0,-3.2543945e-6 V 750.55664 l 196.95117,113.70898 0.36719,-0.63672 a 325,325 0 0 0 162.13281,44.17778 325,325 0 0 0 325,-325.00004 A 325,325 0 0 0 521.9082,301.42578 l 0.043,-0.0762 z"
      inkscape:label="bg_orange"
      inkscape:export-filename="Desktop\bg_orange.svg"
