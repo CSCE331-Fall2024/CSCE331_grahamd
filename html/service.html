@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Graham Dungan - Service</title>
-    <link rel="stylesheet" href="../css/style1_navbar.css" />
-    <link rel="stylesheet" href="../css/style1_service.css" />
-    <!-- USE LATO FONT FAMILY -->
+
+    <!-- DYNAMIC STYLE CHANGING -->
+    <script>
+      localStorage.setItem("currentPage", "service");
+    </script>
+    <link id="page-style" rel="stylesheet" href="../css/style1_service.css" />
+    <link id="nav-style" rel="stylesheet" href="../css/style1_navbar.css" />
     <link
+      id="font-style"
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
     />
+
+    <title>Graham Dungan - Service</title>
   </head>
 
   <body>
@@ -26,9 +32,13 @@
       </div>
       <div>
         <div class="style-switch-container">
-          <input type="checkbox" id="style-checkbox" />
-          <label for="style-checkbox" class="style-slider"></label>
           <script src="../scripts/script.js"></script>
+          <input
+            type="checkbox"
+            id="style-checkbox"
+            onclick="handleClick(this)"
+          />
+          <label for="style-checkbox" class="style-slider"></label>
         </div>
         <a
           class="navbar-button-graphic"

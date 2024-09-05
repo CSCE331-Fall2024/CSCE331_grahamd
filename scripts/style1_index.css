@@ -1,0 +1,135 @@
+html,
+body {
+  font-family: "Lato";
+  font-size: 2.5vh;
+  height: 100%;
+  margin: 0;
+  background-color: #282434;
+}
+
+.landing-body-container {
+  /* border: solid orange 2px; */
+  display: flex;
+  justify-content: space-between;
+  height: 95vh;
+  overflow: hidden;
+}
+
+.landing-body-container > div {
+  /* border: dashed red 5px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture-container {
+  /* border: solid yellow 2px; */
+  position: relative;
+  width: 50vw;
+  z-index: 0;
+  min-width: 20rem;
+}
+
+.picture-bg {
+  /* border: dashed darkorange 2px; */
+  position: absolute;
+  z-index: 1;
+  height: 85vh;
+  left: -12.25rem;
+  filter: brightness(0) saturate(100%) invert(55%) sepia(26%) saturate(2963%)
+    hue-rotate(1deg) brightness(106%) contrast(104%);
+}
+
+.picture-graham {
+  /* border: dashed darkgoldenrod 2px; */
+  z-index: 2;
+  position: absolute;
+  height: 100vh;
+  left: 10vw;
+  top: 15vh;
+}
+
+.introduction-container {
+  /* border: solid blue 2px; */
+  margin-bottom: 4rem;
+  margin-right: 30vw;
+  margin: 5vh 30vw 4rem 0;
+  z-index: 5;
+}
+
+.introduction-container > h1 {
+  /* border: dashed lightseagreen 2px; */
+  position: absolute;
+  top: 18vh;
+  font-size: 5em;
+  color: #f1efed;
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.introduction-container > h2 {
+  /* border: dashed lightskyblue 2px; */
+  font-size: 4.5em;
+  margin: 0;
+  color: #bfbcbf;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.information-container {
+  /* border: solid blueviolet 2px; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 8rem;
+  z-index: 5;
+}
+
+.information-container > p {
+  /* border: solid lime 2px; */
+  color: #f1efed;
+  font-size: 1.25em;
+  margin: 0.5rem;
+}
+
+.information-container > a {
+  /* border: solid lime 2px; */
+  color: #fe9000;
+  text-align: right;
+}
+
+.information-container > a > img {
+  width: 1vw;
+}
+
+.portfolio-container {
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  background-color: #39375b;
+  margin: 8vh;
+  padding: 0 0.5rem;
+}
+
+.portfolio-container > a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-container > a > img {
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  width: 5vw;
+  margin: 0.5rem;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.portfolio-container > a > img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
