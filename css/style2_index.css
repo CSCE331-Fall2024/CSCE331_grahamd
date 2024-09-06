@@ -1,0 +1,17 @@
+.landing-body-container {
+    /* border: solid orangered 2px; */
+}
+
+.picture-bg {
+    position: absolute;
+    z-index: 1;
+    filter: brightness(0) saturate(100%) invert(53%) sepia(5%) saturate(591%) hue-rotate(87deg) brightness(95%) contrast(83%);
+}
+
+.picture-graham {
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    left: 10vw;
+    top: 15vh;
+}

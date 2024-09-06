@@ -48,10 +48,9 @@
   width: 1rem;
   height: 1rem;
   margin: 0.25rem;
-  transition: 0s ease-in-out;
 }
 
-input:checked + .style-slider {
+.style-slider {
   background-color: #fe9000;
 }
 
