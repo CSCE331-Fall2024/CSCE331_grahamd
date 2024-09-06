@@ -1,101 +1,100 @@
 .navbar-container {
-    /* border: solid red 2px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: calc(100vh - 2rem);
+  /* border: solid red 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 2rem);
 }
 
 .navbar-container > div {
-    /* border: solid yellow 2px; */
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    border-radius: 1rem;
-    background-color: #78847C;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    padding: 1rem 0;
+  /* border: solid yellow 2px; */
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  background-color: #78847c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 1rem 0;
 }
 
 .navbar-button {
-    /* border: solid yellowgreen 2px; */
-    display: block;
-    color: white;
-    text-decoration: none;
-    background-color: #78847C;
-    font-weight: bold;
-    font-size: 2em;
-    padding: 2vh 1.5rem;
-    text-align: center;
+  /* border: solid yellowgreen 2px; */
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #78847c;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 2vh 1.5rem;
+  text-align: center;
 }
 
 .navbar-button-graphic {
-    /* border: dashed yellowgreen 2px; */
-    display: block;
-    color: white;
-    text-decoration: none;
-    background-color: #78847C;
-    font-weight: bold;
-    text-align: center;
-    padding: 1rem;
+  /* border: dashed yellowgreen 2px; */
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #78847c;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
 }
 
 .navbar-button:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #80A5A4;
+  color: white;
+  text-decoration: none;
+  background-color: #80a5a4;
 }
 
 .navbar-button-graphic:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #80A5A4;
+  color: white;
+  text-decoration: none;
+  background-color: #80a5a4;
 }
 
-
 a.navbar-button-graphic > img {
-    width: 4vh;
+  width: 4vh;
 }
 
 #style-checkbox {
-    display: none;
+  display: none;
 }
 
 .style-switch-container {
-    /* border: solid lime 2px; */
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
+  /* border: solid lime 2px; */
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
 }
 
 .style-slider {
-    /* border: solid pink 2px; */
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    border-radius: 2rem;
-    background-color: white;
-    width: 4rem;
-    height: 2.4rem;
-    margin: 0 0.5rem;
-    cursor: pointer;
-    position: relative;
-    transition: 0s ease-in-out;
+  /* border: solid pink 2px; */
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  border-radius: 2rem;
+  background-color: white;
+  width: 4rem;
+  height: 2.4rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  position: relative;
+  transition: 0s ease-in-out;
 }
 
 .style-slider::before {
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    border-radius: 1rem;
-    position: absolute;
-    content: "";
-    background-color: #80A5A4;
-    width: 1.6rem;
-    height: 1.6rem;
-    margin: .4rem 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  content: "";
+  background-color: #80a5a4;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0.4rem 1rem;
 }
 
 input:checked + .style-slider::before {
-    transform: translateX(1rem);
+  transform: translateX(1rem);
 }

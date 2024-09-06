@@ -1,0 +1,215 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  margin: 1rem;
+  font-size: 1.75vh;
+}
+
+.portfolio-body {
+  /* border: solid red 2px; */
+  width: calc(calc(100vw - 15vw) - 1rem);
+}
+
+.portfolio-header {
+  /* border: solid orangered 2px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.portfolio-header > h1 {
+  /* border: solid yellow 2px; */
+  color: #25252d;
+  margin: 0;
+  font-size: 4em;
+}
+
+.portfolio-header > p {
+  /* border: solid yellowgreen 2px; */
+  color: #25252d;
+  margin: 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.projects-container-outer {
+  /* border: solid lightgreen 2px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.projects-container-row {
+  /* border: solid lime 2px; */
+  width: 40vw;
+}
+
+.project-container > img {
+  border: solid #78847c 0.5rem;
+  -webkit-border-radius: 12vw;
+  -moz-border-radius: 12vw;
+  border-radius: 12vw;
+  width: 12vw;
+  position: absolute;
+}
+
+.projects-container-row > a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-container {
+  /* border: dashed limegreen 2px; */
+  display: flex;
+  padding: 1rem 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.project-tile {
+  /* border: solid green 2px; */
+  padding-left: 6vw;
+}
+
+.project-header {
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  /* border: solid olivedrab 2px; */
+  padding: 1rem 0rem 1rem 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #78847c;
+}
+
+.project-header > h2 {
+  /* border: solid darkorchid 2px; */
+  margin: 0;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.project-header > h3 {
+  /* border: solid pink 2px; */
+  margin: 0;
+  color: white;
+  font-size: 1.5em;
+}
+
+.project-tile > div {
+  /* border: solid hotpink 2px; */
+  width: 30vw;
+}
+
+.project-description {
+  /* border: solid blue 2px; */
+  width: 50vw;
+}
+
+.project-tile > div > p {
+  /* border: solid pink 2px; */
+  margin: 0 2vh 0 10vh;
+  padding: 1rem 3rem;
+  text-align: center;
+  font-size: 1.25rem;
+  background-color: #25252d;
+  color: white;
+}
+
+.project-tile > div > h3 {
+  /* border: solid palevioletred 2px; */
+  margin: 0 2vh 0 10vh;
+  padding: 0 3rem;
+  background-color: #25252d;
+  color: white;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: bolder;
+}
+
+.project-tile > div > h4 {
+  /* border: solid palevioletred 2px; */
+  margin: 0 2vh 0 10vh;
+  padding: 0 3rem;
+  background-color: #25252d;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.85em;
+}
+
+#last-entry {
+  -webkit-border-bottom-left-radius: 1rem;
+  -moz-border-bottom-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  -webkit-border-bottom-right-radius: 1rem;
+  -moz-border-bottom-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
+.project-description-h1 {
+  /* border: solid red 2px; */
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  border-radius: 5rem;
+  margin: 1rem 15vw 0 0;
+  background-color: #78847c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+
+a {
+  color: #80a5a4;
+}
+
+.portfolio-description-container {
+  /* border: solid orangered 2px; */
+  -webkit-border-bottom-left-radius: 1rem;
+  -moz-border-bottom-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  -webkit-border-bottom-right-radius: 1rem;
+  -moz-border-bottom-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin: 0 18vw 0 3vw;
+  background-color: #25252d;
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.portfolio-description-image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio-description-image-container > img {
+  -webkit-border-radius: 99rem;
+  -moz-border-radius: 99rem;
+  border-radius: 99rem;
+  height: 15vw;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolio-description-image-container > img:hover {
+  -webkit-border-radius: 0rem;
+  -moz-border-radius: 0rem;
+  border-radius: 0rem;
+  height: 20vw;
+  transform: scale(1.05);
+}
