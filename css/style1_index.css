@@ -2,7 +2,6 @@ html,
 body {
   font-family: "Lato";
   font-size: 2.5vh;
-  height: 100%;
   margin: 0;
   background-color: #282434;
 }
@@ -52,8 +51,6 @@ body {
 
 .introduction-container {
   /* border: solid blue 2px; */
-  margin-bottom: 4rem;
-  margin-right: 30vw;
   margin: 5vh 30vw 4rem 0;
   z-index: 5;
 }
@@ -102,6 +99,8 @@ body {
 
 .information-container > a > img {
   width: 1vw;
+  filter: brightness(0) saturate(100%) invert(55%) sepia(26%) saturate(2963%)
+    hue-rotate(1deg) brightness(106%) contrast(104%);
 }
 
 .portfolio-container {

@@ -1,17 +1,87 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin: 1rem;
+    font-size: 1.75vh;
+}
+
 .landing-body-container {
     /* border: solid orangered 2px; */
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 35vw;
 }
 
 .picture-bg {
     position: absolute;
     z-index: 1;
     filter: brightness(0) saturate(100%) invert(53%) sepia(5%) saturate(591%) hue-rotate(87deg) brightness(95%) contrast(83%);
+    rotate: -120deg;
+    right: 0;
+    bottom: 8vh;
+    height: 70vh;
 }
 
 .picture-graham {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
     z-index: 2;
     position: absolute;
-    height: 100vh;
-    left: 10vw;
-    top: 15vh;
+    right: 11vw;
+    bottom: -18vh;
+    height: 90vh;
+}
+
+.introduction-container {
+    /* border: solid blue 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 3rem 5vh 3rem;
+}
+
+.introduction-container > h1 {
+    /* border: dashed lightseagreen 2px; */
+    color: #25252D;
+    font-weight: 900;
+    font-size: 6em;
+    margin: 0;
+
+}
+
+.introduction-container > h2 {
+    /* border: dashed lightskyblue 2px; */
+    color: #5C5C62;
+    font-size: 4em;
+    margin: 0;
+    font-weight: 900;
+}
+
+.information-container {
+    /* border: solid blueviolet 2px; */
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    align-items: center;
+    height: 40vh;
+}
+
+.information-container > p {
+    /* border: solid lime 2px; */
+    color: #25252D;
+    font-size: 1.75em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 1rem;
+}
+
+.information-container > a {
+    /* border: solid lime 2px; */
+    color: #39603D;
+    font-size: 1.75em;
+}
+
+.information-container > a > img {
+    width: 1.25vw;
+    filter: brightness(0) saturate(100%) invert(53%) sepia(5%) saturate(591%) hue-rotate(87deg) brightness(95%) contrast(83%);
 }
