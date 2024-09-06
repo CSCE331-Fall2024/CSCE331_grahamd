@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  height: 90vh;
 }
 
 .picture-container {
@@ -80,8 +80,8 @@ body {
   /* border: solid blueviolet 2px; */
   display: flex;
   flex-direction: column;
-  margin: 0 8rem;
-  z-index: 5;
+  margin: 8vh 12rem 0 8rem;
+  padding: 1rem;
 }
 
 .information-container > p {
@@ -101,34 +101,4 @@ body {
   width: 1vw;
   filter: brightness(0) saturate(100%) invert(55%) sepia(26%) saturate(2963%)
     hue-rotate(1deg) brightness(106%) contrast(104%);
-}
-
-.portfolio-container {
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  border-radius: 1rem;
-  background-color: #39375b;
-  margin: 8vh;
-  padding: 0 0.5rem;
-}
-
-.portfolio-container > a {
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-}
-
-.portfolio-container > a > img {
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  border-radius: 1rem;
-  width: 5vw;
-  margin: 0.5rem;
-  height: auto;
-  transition: transform 0.2s ease-in-out;
-}
-
-.portfolio-container > a > img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
 }
