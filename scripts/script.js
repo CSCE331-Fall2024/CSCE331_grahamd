@@ -1,5 +1,4 @@
 function handleClick(checkbox) {
-
   if (checkbox.checked) {
     localStorage.setItem('styleCheckboxState', 'style2');
     changeStyle('style2');
@@ -12,7 +11,6 @@ function handleClick(checkbox) {
 function changeStyle(style) {
   const currentPage = localStorage.getItem('currentPage');
   let accessor = "";
-  console.log("Current page = [" + currentPage + "]");
 
   if (currentPage === "index") {
     accessor = ".";
@@ -29,8 +27,6 @@ function changeStyle(style) {
     document.getElementById("font-style").setAttribute("href", "https://fonts.googleapis.com/css?family=Open+Sans:400,600,300");
   }
 
-  console.log("Changed page-style to ", `${accessor}/css/${style}_${currentPage}.css`);
-  console.log("Changed nav-style to ", `${accessor}/css/${style}_navbar.css`, "\n")
 }
 
 // On page reload, check stored style checkbox state and assign it to the checkbox that exists on the current page.
