@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- DYNAMIC STYLE CHANGING -->
+    <script>
+      localStorage.setItem("currentPage", "index");
+    </script>
+    <link
+      id="font-style"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Graham Dungan - Landing</title>
-    <!-- USE LATO FONT FAMILY -->
   </head>
 
-  <body>
+  <body style="overflow: hidden">
     <!-- NAV BAR -->
     <div class="navbar-container">
       <div>
@@ -22,9 +32,13 @@
       </div>
       <div>
         <div class="style-switch-container">
-          <input type="checkbox" id="style-checkbox" />
-          <label for="style-checkbox" class="style-slider"></label>
           <script src="./scripts/script.js"></script>
+          <input
+            type="checkbox"
+            id="style-checkbox"
+            onclick="handleClick(this)"
+          />
+          <label for="style-checkbox" class="style-slider"></label>
         </div>
         <a
           class="navbar-button-graphic"
@@ -72,33 +86,6 @@
           <a href="./html/qualifications.html">
             learn more
             <img src="./svg/icon_arrow.svg" />
-          </a>
-        </div>
-        <!-- PORTFOLIO BUTTONS -->
-        <div class="portfolio-container">
-          <a href="./html/portfolio.html#kavtools_description">
-            <img
-              src="./images/landing_thumbnails/thumb_intersector.svg"
-              alt="Intersector Thumbnail"
-            />
-          </a>
-          <a href="./html/portfolio.html#rummikub_description">
-            <img
-              src="./images/landing_thumbnails/thumb_rummi.png"
-              alt="Rummikub Thumbnail"
-            />
-          </a>
-          <a href="./html/portfolio.html#kabu_description">
-            <img
-              src="./images/landing_thumbnails/thumb_kabu.png"
-              alt="Hiki Kabu Thumbnail"
-            />
-          </a>
-          <a href="./html/portfolio.html#tolltext_description">
-            <img
-              src="./images/landing_thumbnails/thumb_toll.svg"
-              alt="TollText Thumbnail"
-            />
           </a>
         </div>
       </div>
